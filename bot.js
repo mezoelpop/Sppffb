@@ -86,3 +86,10 @@ if (message.content === '!spam') {
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
+client.on('message', msg =>{
+        let args = msg.content.slice(4);
+  if (msg.author.id !== '371030005347647489' ) return;
+  if (msg.content.startsWith('say')) {
+   msg.channel.send(args)   
+  }
+})
