@@ -28,8 +28,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
+    if(message.content === '-سحب'){
+        message.channel.send('#credits @Shadows#9363')
     }
 });
 
@@ -46,8 +46,8 @@ client2.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
+    if(message.content === '-سحب'){
+        message.channel.send('#credits @Shadows#9363')
     }
 });
 
